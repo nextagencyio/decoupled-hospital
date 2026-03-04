@@ -1,0 +1,4 @@
+.git
+.git.bak*
+node_modules
+.next
