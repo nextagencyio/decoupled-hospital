@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Mercy General Hospital",
+          "path": "/homepage",
+          "heroTitle": "Your Health, Our Priority",
+          "heroSubtitle": "Compassionate Care, Advanced Medicine",
+          "heroDescription": {
+            "processed": "<p>Mercy General Hospital provides comprehensive, patient-centered care backed by cutting-edge technology and a team of world-class physicians dedicated to your well-being.</p>",
+            "summary": "Mercy General Hospital provides comprehensive, patient-centered care backed by cutting-edge technology and a team of world-class physicians dedicated to your well-being."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-patients",
+              "title": "",
+              "number": "50,000+",
+              "label": "Patients Served Annually"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-physicians",
+              "title": "",
+              "number": "300+",
+              "label": "Board-Certified Physicians"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-departments",
+              "title": "",
+              "number": "40+",
+              "label": "Medical Specialties"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-satisfaction",
+              "title": "",
+              "number": "97%",
+              "label": "Patient Satisfaction Rate"
+            }
+          ],
+          "featuredServicesTitle": "Our Medical Services",
+          "ctaTitle": "Need to See a Doctor?",
+          "ctaDescription": {
+            "processed": "<p>Whether you need a routine check-up or specialized care, our team is here for you. Schedule an appointment online or call our patient services line.</p>",
+            "summary": "Whether you need a routine check-up or specialized care, our team is here for you. Schedule an appointment online or call our patient services line."
+          },
+          "ctaPrimary": "Find a Doctor",
+          "ctaSecondary": "Call (555) 100-2000"
+        }
+      ]
+    }
+  }
+}

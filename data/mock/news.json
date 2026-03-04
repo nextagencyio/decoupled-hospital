@@ -1,0 +1,138 @@
+{
+  "data": {
+    "nodeNewsItems": {
+      "__typename": "NodeNewsConnection",
+      "nodes": [
+        {
+          "__typename": "NodeNews",
+          "id": "news-heart-program",
+          "title": "Mercy General Launches Innovative Heart Failure Program",
+          "path": "/news/new-heart-program",
+          "body": {
+            "processed": "<p>Mercy General Hospital is proud to announce the launch of our new Advanced Heart Failure Program, offering cutting-edge therapies including ventricular assist devices (VADs) and comprehensive heart transplant evaluation services.</p><p>The program, led by Dr. James Chen, brings together cardiologists, cardiac surgeons, and specialized nurses to provide coordinated care for patients with advanced heart failure.</p><p>\"This program represents a significant step forward in our ability to serve patients with complex cardiac conditions,\" said Dr. Chen. \"We can now offer therapies that were previously only available at a handful of academic medical centers.\"</p>",
+            "summary": "Mercy General Hospital is proud to announce the launch of our new Advanced Heart Failure Program, offering cutting-edge therapies including ventricular assist devices (VADs) and comprehensive heart tr"
+          },
+          "category": [
+            {
+              "id": "health-news",
+              "name": "health-news"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&q=80",
+            "alt": "New Heart Failure Program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1551076805-e1869033e561?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1551076805-e1869033e561?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-top-hospital",
+          "title": "Mercy General Named Among Top 100 Hospitals in the Nation",
+          "path": "/news/top-hospital-award",
+          "body": {
+            "processed": "<p>Mercy General Hospital has been recognized as one of the top 100 hospitals in the United States by Healthgrades for the third consecutive year. The recognition is based on clinical outcomes, patient safety, and overall quality of care.</p><p>Key areas of distinction include our cardiac care, orthopedic surgery, and cancer treatment programs, all of which received five-star ratings.</p>",
+            "summary": "Mercy General Hospital has been recognized as one of the top 100 hospitals in the United States by Healthgrades for the third consecutive year. The recognition is based on clinical outcomes, patient s"
+          },
+          "category": [
+            {
+              "id": "announcements",
+              "name": "announcements"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+            "alt": "Top Hospital Award",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-flu-season",
+          "title": "Flu Season Preparedness: Free Vaccination Clinics Available",
+          "path": "/news/flu-season-preparedness",
+          "body": {
+            "processed": "<p>As flu season approaches, Mercy General Hospital is offering free flu vaccination clinics throughout the community. Vaccinations are available for adults and children ages 6 months and older.</p><h2>Clinic Locations & Times</h2><ul><li>Main Hospital Lobby: Mon-Fri, 8am-6pm</li><li>Mercy Outpatient Center: Tue & Thu, 9am-4pm</li><li>Community Health Fair: Saturday, October 15, 10am-2pm</li></ul><p>No appointment is necessary. Please bring your insurance card if available.</p>",
+            "summary": "As flu season approaches, Mercy General Hospital is offering free flu vaccination clinics throughout the community. Vaccinations are available for adults and children ages 6 months and older.Clinic Lo"
+          },
+          "category": [
+            {
+              "id": "community",
+              "name": "community"
+            }
+          ],
+          "featured": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=80",
+            "alt": "Flu Vaccination Clinics",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

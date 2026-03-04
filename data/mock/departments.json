@@ -1,0 +1,189 @@
+{
+  "data": {
+    "nodeDepartments": {
+      "__typename": "NodeDepartmentConnection",
+      "nodes": [
+        {
+          "__typename": "NodeDepartment",
+          "id": "dept-cardiology",
+          "title": "Cardiology",
+          "path": "/departments/cardiology",
+          "body": {
+            "processed": "<p>Our Cardiology Department offers comprehensive heart care from diagnosis to treatment. Our team of interventional cardiologists, electrophysiologists, and cardiac surgeons utilizes the latest techniques including minimally invasive procedures, transcatheter valve replacements, and advanced cardiac imaging.</p><h2>Services</h2><ul><li>Cardiac catheterization</li><li>Echocardiography</li><li>Electrophysiology studies</li><li>Heart failure management</li><li>Cardiac rehabilitation</li></ul>",
+            "summary": "Our Cardiology Department offers comprehensive heart care from diagnosis to treatment. Our team of interventional cardiologists, electrophysiologists, and cardiac surgeons utilizes the latest techniqu"
+          },
+          "phone": "(555) 100-2010",
+          "location": "Heart Center, 3rd Floor",
+          "departmentHead": "Dr. James Chen",
+          "departmentType": [
+            {
+              "id": "cardiology",
+              "name": "cardiology"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=80",
+            "alt": "Cardiology Department",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeDepartment",
+          "id": "dept-oncology",
+          "title": "Oncology",
+          "path": "/departments/oncology",
+          "body": {
+            "processed": "<p>The Oncology Department at Mercy General provides multidisciplinary cancer care combining medical oncology, surgical oncology, and radiation therapy. Our cancer center is accredited by the Commission on Cancer and offers access to clinical trials and the latest treatment options.</p><h2>Services</h2><ul><li>Chemotherapy and immunotherapy</li><li>Radiation therapy</li><li>Surgical oncology</li><li>Cancer screening programs</li><li>Survivorship programs</li></ul>",
+            "summary": "The Oncology Department at Mercy General provides multidisciplinary cancer care combining medical oncology, surgical oncology, and radiation therapy. Our cancer center is accredited by the Commission "
+          },
+          "phone": "(555) 100-2020",
+          "location": "Cancer Center, 2nd Floor",
+          "departmentHead": "Dr. Maria Santos",
+          "departmentType": [
+            {
+              "id": "oncology",
+              "name": "oncology"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80",
+            "alt": "Oncology Department",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeDepartment",
+          "id": "dept-orthopedics",
+          "title": "Orthopedics",
+          "path": "/departments/orthopedics",
+          "body": {
+            "processed": "<p>Our Orthopedic Department specializes in the diagnosis and treatment of musculoskeletal conditions. From joint replacements to sports medicine, our surgeons employ minimally invasive techniques to help patients return to active lifestyles.</p><h2>Services</h2><ul><li>Joint replacement surgery</li><li>Sports medicine</li><li>Spine surgery</li><li>Fracture care</li><li>Physical therapy and rehabilitation</li></ul>",
+            "summary": "Our Orthopedic Department specializes in the diagnosis and treatment of musculoskeletal conditions. From joint replacements to sports medicine, our surgeons employ minimally invasive techniques to hel"
+          },
+          "phone": "(555) 100-2030",
+          "location": "Musculoskeletal Center, 4th Floor",
+          "departmentHead": "Dr. Robert Kim",
+          "departmentType": [
+            {
+              "id": "orthopedics",
+              "name": "orthopedics"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=80",
+            "alt": "Orthopedics Department",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeDepartment",
+          "id": "dept-emergency",
+          "title": "Emergency Medicine",
+          "path": "/departments/emergency-medicine",
+          "body": {
+            "processed": "<p>Our Emergency Department is a Level II Trauma Center staffed 24/7 with board-certified emergency physicians and trauma surgeons. We treat over 80,000 patients annually and maintain an average wait time well below the national average.</p><h2>Capabilities</h2><ul><li>24/7 emergency care</li><li>Trauma surgery</li><li>Stroke and heart attack response</li><li>Pediatric emergencies</li><li>Critical care transport</li></ul>",
+            "summary": "Our Emergency Department is a Level II Trauma Center staffed 24/7 with board-certified emergency physicians and trauma surgeons. We treat over 80,000 patients annually and maintain an average wait tim"
+          },
+          "phone": "(555) 100-9111",
+          "location": "Emergency Department, Ground Floor",
+          "departmentHead": "Dr. Angela Williams",
+          "departmentType": [
+            {
+              "id": "emergency",
+              "name": "emergency"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&q=80",
+            "alt": "Emergency Department",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

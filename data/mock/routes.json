@@ -1,0 +1,875 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Mercy General Hospital",
+          "path": "/homepage",
+          "heroTitle": "Your Health, Our Priority",
+          "heroSubtitle": "Compassionate Care, Advanced Medicine",
+          "heroDescription": {
+            "processed": "<p>Mercy General Hospital provides comprehensive, patient-centered care backed by cutting-edge technology and a team of world-class physicians dedicated to your well-being.</p>",
+            "summary": "Mercy General Hospital provides comprehensive, patient-centered care backed by cutting-edge technology and a team of world-class physicians dedicated to your well-being."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-patients",
+              "title": "",
+              "number": "50,000+",
+              "label": "Patients Served Annually"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-physicians",
+              "title": "",
+              "number": "300+",
+              "label": "Board-Certified Physicians"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-departments",
+              "title": "",
+              "number": "40+",
+              "label": "Medical Specialties"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-satisfaction",
+              "title": "",
+              "number": "97%",
+              "label": "Patient Satisfaction Rate"
+            }
+          ],
+          "featuredServicesTitle": "Our Medical Services",
+          "ctaTitle": "Need to See a Doctor?",
+          "ctaDescription": {
+            "processed": "<p>Whether you need a routine check-up or specialized care, our team is here for you. Schedule an appointment online or call our patient services line.</p>",
+            "summary": "Whether you need a routine check-up or specialized care, our team is here for you. Schedule an appointment online or call our patient services line."
+          },
+          "ctaPrimary": "Find a Doctor",
+          "ctaSecondary": "Call (555) 100-2000"
+        }
+      }
+    }
+  },
+  "/departments/cardiology": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeDepartment",
+          "id": "dept-cardiology",
+          "title": "Cardiology",
+          "path": "/departments/cardiology",
+          "body": {
+            "processed": "<p>Our Cardiology Department offers comprehensive heart care from diagnosis to treatment. Our team of interventional cardiologists, electrophysiologists, and cardiac surgeons utilizes the latest techniques including minimally invasive procedures, transcatheter valve replacements, and advanced cardiac imaging.</p><h2>Services</h2><ul><li>Cardiac catheterization</li><li>Echocardiography</li><li>Electrophysiology studies</li><li>Heart failure management</li><li>Cardiac rehabilitation</li></ul>",
+            "summary": "Our Cardiology Department offers comprehensive heart care from diagnosis to treatment. Our team of interventional cardiologists, electrophysiologists, and cardiac surgeons utilizes the latest techniqu"
+          },
+          "phone": "(555) 100-2010",
+          "location": "Heart Center, 3rd Floor",
+          "departmentHead": "Dr. James Chen",
+          "departmentType": [
+            {
+              "id": "cardiology",
+              "name": "cardiology"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=80",
+            "alt": "Cardiology Department",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/departments/oncology": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeDepartment",
+          "id": "dept-oncology",
+          "title": "Oncology",
+          "path": "/departments/oncology",
+          "body": {
+            "processed": "<p>The Oncology Department at Mercy General provides multidisciplinary cancer care combining medical oncology, surgical oncology, and radiation therapy. Our cancer center is accredited by the Commission on Cancer and offers access to clinical trials and the latest treatment options.</p><h2>Services</h2><ul><li>Chemotherapy and immunotherapy</li><li>Radiation therapy</li><li>Surgical oncology</li><li>Cancer screening programs</li><li>Survivorship programs</li></ul>",
+            "summary": "The Oncology Department at Mercy General provides multidisciplinary cancer care combining medical oncology, surgical oncology, and radiation therapy. Our cancer center is accredited by the Commission "
+          },
+          "phone": "(555) 100-2020",
+          "location": "Cancer Center, 2nd Floor",
+          "departmentHead": "Dr. Maria Santos",
+          "departmentType": [
+            {
+              "id": "oncology",
+              "name": "oncology"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80",
+            "alt": "Oncology Department",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/departments/orthopedics": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeDepartment",
+          "id": "dept-orthopedics",
+          "title": "Orthopedics",
+          "path": "/departments/orthopedics",
+          "body": {
+            "processed": "<p>Our Orthopedic Department specializes in the diagnosis and treatment of musculoskeletal conditions. From joint replacements to sports medicine, our surgeons employ minimally invasive techniques to help patients return to active lifestyles.</p><h2>Services</h2><ul><li>Joint replacement surgery</li><li>Sports medicine</li><li>Spine surgery</li><li>Fracture care</li><li>Physical therapy and rehabilitation</li></ul>",
+            "summary": "Our Orthopedic Department specializes in the diagnosis and treatment of musculoskeletal conditions. From joint replacements to sports medicine, our surgeons employ minimally invasive techniques to hel"
+          },
+          "phone": "(555) 100-2030",
+          "location": "Musculoskeletal Center, 4th Floor",
+          "departmentHead": "Dr. Robert Kim",
+          "departmentType": [
+            {
+              "id": "orthopedics",
+              "name": "orthopedics"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=80",
+            "alt": "Orthopedics Department",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/departments/emergency-medicine": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeDepartment",
+          "id": "dept-emergency",
+          "title": "Emergency Medicine",
+          "path": "/departments/emergency-medicine",
+          "body": {
+            "processed": "<p>Our Emergency Department is a Level II Trauma Center staffed 24/7 with board-certified emergency physicians and trauma surgeons. We treat over 80,000 patients annually and maintain an average wait time well below the national average.</p><h2>Capabilities</h2><ul><li>24/7 emergency care</li><li>Trauma surgery</li><li>Stroke and heart attack response</li><li>Pediatric emergencies</li><li>Critical care transport</li></ul>",
+            "summary": "Our Emergency Department is a Level II Trauma Center staffed 24/7 with board-certified emergency physicians and trauma surgeons. We treat over 80,000 patients annually and maintain an average wait tim"
+          },
+          "phone": "(555) 100-9111",
+          "location": "Emergency Department, Ground Floor",
+          "departmentHead": "Dr. Angela Williams",
+          "departmentType": [
+            {
+              "id": "emergency",
+              "name": "emergency"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&q=80",
+            "alt": "Emergency Department",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/providers/dr-james-chen": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProvider",
+          "id": "provider-chen",
+          "title": "Dr. James Chen",
+          "path": "/providers/dr-james-chen",
+          "body": {
+            "processed": "<p>Dr. Chen is a board-certified cardiologist specializing in interventional cardiology and structural heart disease. With over 20 years of experience, he has performed thousands of cardiac catheterizations and stent placements.</p>",
+            "summary": "Dr. Chen is a board-certified cardiologist specializing in interventional cardiology and structural heart disease. With over 20 years of experience, he has performed thousands of cardiac catheterizati"
+          },
+          "specialty": [
+            {
+              "id": "cardiology",
+              "name": "cardiology"
+            }
+          ],
+          "email": "jchen@mercygeneral.org",
+          "phone": "(555) 100-3001",
+          "office": "Heart Center, Suite 310",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&q=80",
+            "alt": "Dr. James Chen",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "education": {
+            "processed": "<p><strong>MD</strong>, Johns Hopkins School of Medicine<br/><strong>Residency</strong>, Internal Medicine, Massachusetts General Hospital<br/><strong>Fellowship</strong>, Interventional Cardiology, Cleveland Clinic</p>",
+            "summary": "MD, Johns Hopkins School of MedicineResidency, Internal Medicine, Massachusetts General HospitalFellowship, Interventional Cardiology, Cleveland Clinic"
+          },
+          "acceptingPatients": true
+        }
+      }
+    }
+  },
+  "/providers/dr-maria-santos": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProvider",
+          "id": "provider-santos",
+          "title": "Dr. Maria Santos",
+          "path": "/providers/dr-maria-santos",
+          "body": {
+            "processed": "<p>Dr. Santos is a medical oncologist focused on breast cancer and hematologic malignancies. She leads multiple clinical trials and is recognized nationally for her research in targeted therapies.</p>",
+            "summary": "Dr. Santos is a medical oncologist focused on breast cancer and hematologic malignancies. She leads multiple clinical trials and is recognized nationally for her research in targeted therapies."
+          },
+          "specialty": [
+            {
+              "id": "oncology",
+              "name": "oncology"
+            }
+          ],
+          "email": "msantos@mercygeneral.org",
+          "phone": "(555) 100-3002",
+          "office": "Cancer Center, Suite 220",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80",
+            "alt": "Dr. Maria Santos",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "education": {
+            "processed": "<p><strong>MD</strong>, Stanford University School of Medicine<br/><strong>Residency</strong>, Internal Medicine, UCSF<br/><strong>Fellowship</strong>, Medical Oncology, Dana-Farber Cancer Institute</p>",
+            "summary": "MD, Stanford University School of MedicineResidency, Internal Medicine, UCSFFellowship, Medical Oncology, Dana-Farber Cancer Institute"
+          },
+          "acceptingPatients": true
+        }
+      }
+    }
+  },
+  "/providers/dr-robert-kim": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProvider",
+          "id": "provider-kim",
+          "title": "Dr. Robert Kim",
+          "path": "/providers/dr-robert-kim",
+          "body": {
+            "processed": "<p>Dr. Kim is an orthopedic surgeon specializing in total joint replacement and sports medicine. He pioneers robotic-assisted surgical techniques and has been recognized as a Top Doctor by regional publications for five consecutive years.</p>",
+            "summary": "Dr. Kim is an orthopedic surgeon specializing in total joint replacement and sports medicine. He pioneers robotic-assisted surgical techniques and has been recognized as a Top Doctor by regional publi"
+          },
+          "specialty": [
+            {
+              "id": "orthopedics",
+              "name": "orthopedics"
+            }
+          ],
+          "email": "rkim@mercygeneral.org",
+          "phone": "(555) 100-3003",
+          "office": "Musculoskeletal Center, Suite 410",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80",
+            "alt": "Dr. Robert Kim",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "education": {
+            "processed": "<p><strong>MD</strong>, Harvard Medical School<br/><strong>Residency</strong>, Orthopedic Surgery, Hospital for Special Surgery<br/><strong>Fellowship</strong>, Sports Medicine, Andrews Sports Medicine & Orthopaedic Center</p>",
+            "summary": "MD, Harvard Medical SchoolResidency, Orthopedic Surgery, Hospital for Special SurgeryFellowship, Sports Medicine, Andrews Sports Medicine & Orthopaedic Center"
+          },
+          "acceptingPatients": true
+        }
+      }
+    }
+  },
+  "/providers/dr-angela-williams": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProvider",
+          "id": "provider-williams",
+          "title": "Dr. Angela Williams",
+          "path": "/providers/dr-angela-williams",
+          "body": {
+            "processed": "<p>Dr. Williams is a board-certified emergency medicine physician and the Medical Director of our Emergency Department. She specializes in trauma care and has implemented innovative triage protocols that have significantly reduced patient wait times.</p>",
+            "summary": "Dr. Williams is a board-certified emergency medicine physician and the Medical Director of our Emergency Department. She specializes in trauma care and has implemented innovative triage protocols that"
+          },
+          "specialty": [
+            {
+              "id": "emergency",
+              "name": "emergency"
+            }
+          ],
+          "email": "awilliams@mercygeneral.org",
+          "phone": "(555) 100-3004",
+          "office": "Emergency Department, Admin Suite",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+            "alt": "Dr. Angela Williams",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "education": {
+            "processed": "<p><strong>MD</strong>, University of Pennsylvania School of Medicine<br/><strong>Residency</strong>, Emergency Medicine, Johns Hopkins Hospital<br/><strong>Fellowship</strong>, Trauma Critical Care, University of Maryland Shock Trauma</p>",
+            "summary": "MD, University of Pennsylvania School of MedicineResidency, Emergency Medicine, Johns Hopkins HospitalFellowship, Trauma Critical Care, University of Maryland Shock Trauma"
+          },
+          "acceptingPatients": false
+        }
+      }
+    }
+  },
+  "/services/cardiac-surgery": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-cardiac-surgery",
+          "title": "Cardiac Surgery",
+          "path": "/services/cardiac-surgery",
+          "body": {
+            "processed": "<p>Our cardiac surgery program offers a full range of surgical procedures for heart conditions, from minimally invasive valve repairs to complex bypass surgeries. Our surgeons use the latest robotic-assisted techniques to ensure faster recovery times and better outcomes.</p><h2>Procedures</h2><ul><li>Coronary artery bypass grafting (CABG)</li><li>Heart valve repair and replacement</li><li>Aortic aneurysm repair</li><li>Heart transplant evaluation</li></ul>",
+            "summary": "Our cardiac surgery program offers a full range of surgical procedures for heart conditions, from minimally invasive valve repairs to complex bypass surgeries. Our surgeons use the latest robotic-assi"
+          },
+          "department": [
+            {
+              "id": "cardiology",
+              "name": "cardiology"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=800&q=80",
+            "alt": "Cardiac Surgery",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/cancer-treatment": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-cancer-treatment",
+          "title": "Cancer Treatment",
+          "path": "/services/cancer-treatment",
+          "body": {
+            "processed": "<p>Our comprehensive cancer treatment program combines the latest in chemotherapy, immunotherapy, targeted therapy, and radiation oncology. We create personalized treatment plans using tumor genomic profiling and multidisciplinary tumor boards.</p><h2>Treatment Options</h2><ul><li>Chemotherapy and immunotherapy infusions</li><li>Proton therapy and IMRT radiation</li><li>Robotic-assisted cancer surgery</li><li>Clinical trial access</li></ul>",
+            "summary": "Our comprehensive cancer treatment program combines the latest in chemotherapy, immunotherapy, targeted therapy, and radiation oncology. We create personalized treatment plans using tumor genomic prof"
+          },
+          "department": [
+            {
+              "id": "oncology",
+              "name": "oncology"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=800&q=80",
+            "alt": "Cancer Treatment",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/joint-replacement": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-joint-replacement",
+          "title": "Joint Replacement",
+          "path": "/services/joint-replacement",
+          "body": {
+            "processed": "<p>Our joint replacement program is among the highest-volume in the region, offering hip, knee, and shoulder replacements using advanced robotic-assisted technology. Most patients are able to walk the same day and return home within 24 hours.</p><h2>Offerings</h2><ul><li>Total hip replacement</li><li>Total knee replacement</li><li>Partial knee replacement</li><li>Shoulder replacement</li><li>Revision joint surgery</li></ul>",
+            "summary": "Our joint replacement program is among the highest-volume in the region, offering hip, knee, and shoulder replacements using advanced robotic-assisted technology. Most patients are able to walk the sa"
+          },
+          "department": [
+            {
+              "id": "orthopedics",
+              "name": "orthopedics"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+            "alt": "Joint Replacement",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/emergency-trauma": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-emergency-trauma",
+          "title": "Emergency & Trauma Care",
+          "path": "/services/emergency-trauma",
+          "body": {
+            "processed": "<p>As a Level II Trauma Center, we provide immediate, comprehensive care for life-threatening injuries and acute medical emergencies. Our emergency team is trained in the latest resuscitation protocols and has rapid access to all hospital surgical and diagnostic services.</p><h2>Capabilities</h2><ul><li>24/7 emergency physician coverage</li><li>Trauma surgery on-call</li><li>Rapid CT, MRI, and ultrasound</li><li>Helicopter landing pad</li><li>Pediatric emergency section</li></ul>",
+            "summary": "As a Level II Trauma Center, we provide immediate, comprehensive care for life-threatening injuries and acute medical emergencies. Our emergency team is trained in the latest resuscitation protocols a"
+          },
+          "department": [
+            {
+              "id": "emergency",
+              "name": "emergency"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=800&q=80",
+            "alt": "Emergency and Trauma Care",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/new-heart-program": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-heart-program",
+          "title": "Mercy General Launches Innovative Heart Failure Program",
+          "path": "/news/new-heart-program",
+          "body": {
+            "processed": "<p>Mercy General Hospital is proud to announce the launch of our new Advanced Heart Failure Program, offering cutting-edge therapies including ventricular assist devices (VADs) and comprehensive heart transplant evaluation services.</p><p>The program, led by Dr. James Chen, brings together cardiologists, cardiac surgeons, and specialized nurses to provide coordinated care for patients with advanced heart failure.</p><p>\"This program represents a significant step forward in our ability to serve patients with complex cardiac conditions,\" said Dr. Chen. \"We can now offer therapies that were previously only available at a handful of academic medical centers.\"</p>",
+            "summary": "Mercy General Hospital is proud to announce the launch of our new Advanced Heart Failure Program, offering cutting-edge therapies including ventricular assist devices (VADs) and comprehensive heart tr"
+          },
+          "category": [
+            {
+              "id": "health-news",
+              "name": "health-news"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&q=80",
+            "alt": "New Heart Failure Program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1551076805-e1869033e561?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1551076805-e1869033e561?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/top-hospital-award": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-top-hospital",
+          "title": "Mercy General Named Among Top 100 Hospitals in the Nation",
+          "path": "/news/top-hospital-award",
+          "body": {
+            "processed": "<p>Mercy General Hospital has been recognized as one of the top 100 hospitals in the United States by Healthgrades for the third consecutive year. The recognition is based on clinical outcomes, patient safety, and overall quality of care.</p><p>Key areas of distinction include our cardiac care, orthopedic surgery, and cancer treatment programs, all of which received five-star ratings.</p>",
+            "summary": "Mercy General Hospital has been recognized as one of the top 100 hospitals in the United States by Healthgrades for the third consecutive year. The recognition is based on clinical outcomes, patient s"
+          },
+          "category": [
+            {
+              "id": "announcements",
+              "name": "announcements"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+            "alt": "Top Hospital Award",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/flu-season-preparedness": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-flu-season",
+          "title": "Flu Season Preparedness: Free Vaccination Clinics Available",
+          "path": "/news/flu-season-preparedness",
+          "body": {
+            "processed": "<p>As flu season approaches, Mercy General Hospital is offering free flu vaccination clinics throughout the community. Vaccinations are available for adults and children ages 6 months and older.</p><h2>Clinic Locations & Times</h2><ul><li>Main Hospital Lobby: Mon-Fri, 8am-6pm</li><li>Mercy Outpatient Center: Tue & Thu, 9am-4pm</li><li>Community Health Fair: Saturday, October 15, 10am-2pm</li></ul><p>No appointment is necessary. Please bring your insurance card if available.</p>",
+            "summary": "As flu season approaches, Mercy General Hospital is offering free flu vaccination clinics throughout the community. Vaccinations are available for adults and children ages 6 months and older.Clinic Lo"
+          },
+          "category": [
+            {
+              "id": "community",
+              "name": "community"
+            }
+          ],
+          "featured": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=80",
+            "alt": "Flu Vaccination Clinics",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Mercy General Hospital",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Founded in 1952, Mercy General Hospital has been serving the community for over 70 years with a commitment to compassionate, high-quality healthcare. What began as a small community hospital has grown into a 450-bed regional medical center with over 300 physicians and 2,500 healthcare professionals.</p><h2>Our Mission</h2><p>To provide exceptional, patient-centered healthcare that improves the health and well-being of the communities we serve.</p><h2>Our Values</h2><ul><li><strong>Compassion</strong> - We treat every patient with empathy and respect.</li><li><strong>Excellence</strong> - We strive for the highest standards in clinical care and safety.</li><li><strong>Innovation</strong> - We embrace new technologies and evidence-based practices.</li><li><strong>Integrity</strong> - We act with honesty and accountability in all that we do.</li></ul><h2>Accreditations</h2><p>Mercy General Hospital is accredited by The Joint Commission and holds specialty certifications in cardiac care, stroke treatment, and cancer care.</p>",
+            "summary": "Founded in 1952, Mercy General Hospital has been serving the community for over 70 years with a commitment to compassionate, high-quality healthcare. What began as a small community hospital has grown"
+          }
+        }
+      }
+    }
+  },
+  "/visitor-information": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-visitors",
+          "title": "Visitor Information",
+          "path": "/visitor-information",
+          "body": {
+            "processed": "<h2>Visiting Hours</h2><p>General visiting hours are 8:00 AM to 8:00 PM daily. Specific units may have modified visiting hours for patient safety and recovery.</p><h2>Parking</h2><p>Free parking is available in the main hospital parking garage. Valet parking is offered at the main entrance Monday through Friday from 6:00 AM to 6:00 PM.</p><h2>What to Bring</h2><ul><li>Photo identification</li><li>Insurance card and information</li><li>List of current medications</li><li>Comfortable clothing</li><li>Personal care items</li></ul><h2>Patient Advocates</h2><p>If you have questions or concerns during your visit, our Patient Advocate team is available at (555) 100-2050 or at the main information desk.</p>",
+            "summary": "Visiting HoursGeneral visiting hours are 8:00 AM to 8:00 PM daily. Specific units may have modified visiting hours for patient safety and recovery.ParkingFree parking is available in the main hospital"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "data": {
+    "nodeProviders": {
+      "__typename": "NodeProviderConnection",
+      "nodes": [
+        {
+          "__typename": "NodeProvider",
+          "id": "provider-chen",
+          "title": "Dr. James Chen",
+          "path": "/providers/dr-james-chen",
+          "body": {
+            "processed": "<p>Dr. Chen is a board-certified cardiologist specializing in interventional cardiology and structural heart disease. With over 20 years of experience, he has performed thousands of cardiac catheterizations and stent placements.</p>",
+            "summary": "Dr. Chen is a board-certified cardiologist specializing in interventional cardiology and structural heart disease. With over 20 years of experience, he has performed thousands of cardiac catheterizati"
+          },
+          "specialty": [
+            {
+              "id": "cardiology",
+              "name": "cardiology"
+            }
+          ],
+          "email": "jchen@mercygeneral.org",
+          "phone": "(555) 100-3001",
+          "office": "Heart Center, Suite 310",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&q=80",
+            "alt": "Dr. James Chen",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "education": {
+            "processed": "<p><strong>MD</strong>, Johns Hopkins School of Medicine<br/><strong>Residency</strong>, Internal Medicine, Massachusetts General Hospital<br/><strong>Fellowship</strong>, Interventional Cardiology, Cleveland Clinic</p>",
+            "summary": "MD, Johns Hopkins School of MedicineResidency, Internal Medicine, Massachusetts General HospitalFellowship, Interventional Cardiology, Cleveland Clinic"
+          },
+          "acceptingPatients": true
+        },
+        {
+          "__typename": "NodeProvider",
+          "id": "provider-santos",
+          "title": "Dr. Maria Santos",
+          "path": "/providers/dr-maria-santos",
+          "body": {
+            "processed": "<p>Dr. Santos is a medical oncologist focused on breast cancer and hematologic malignancies. She leads multiple clinical trials and is recognized nationally for her research in targeted therapies.</p>",
+            "summary": "Dr. Santos is a medical oncologist focused on breast cancer and hematologic malignancies. She leads multiple clinical trials and is recognized nationally for her research in targeted therapies."
+          },
+          "specialty": [
+            {
+              "id": "oncology",
+              "name": "oncology"
+            }
+          ],
+          "email": "msantos@mercygeneral.org",
+          "phone": "(555) 100-3002",
+          "office": "Cancer Center, Suite 220",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80",
+            "alt": "Dr. Maria Santos",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "education": {
+            "processed": "<p><strong>MD</strong>, Stanford University School of Medicine<br/><strong>Residency</strong>, Internal Medicine, UCSF<br/><strong>Fellowship</strong>, Medical Oncology, Dana-Farber Cancer Institute</p>",
+            "summary": "MD, Stanford University School of MedicineResidency, Internal Medicine, UCSFFellowship, Medical Oncology, Dana-Farber Cancer Institute"
+          },
+          "acceptingPatients": true
+        },
+        {
+          "__typename": "NodeProvider",
+          "id": "provider-kim",
+          "title": "Dr. Robert Kim",
+          "path": "/providers/dr-robert-kim",
+          "body": {
+            "processed": "<p>Dr. Kim is an orthopedic surgeon specializing in total joint replacement and sports medicine. He pioneers robotic-assisted surgical techniques and has been recognized as a Top Doctor by regional publications for five consecutive years.</p>",
+            "summary": "Dr. Kim is an orthopedic surgeon specializing in total joint replacement and sports medicine. He pioneers robotic-assisted surgical techniques and has been recognized as a Top Doctor by regional publi"
+          },
+          "specialty": [
+            {
+              "id": "orthopedics",
+              "name": "orthopedics"
+            }
+          ],
+          "email": "rkim@mercygeneral.org",
+          "phone": "(555) 100-3003",
+          "office": "Musculoskeletal Center, Suite 410",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80",
+            "alt": "Dr. Robert Kim",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "education": {
+            "processed": "<p><strong>MD</strong>, Harvard Medical School<br/><strong>Residency</strong>, Orthopedic Surgery, Hospital for Special Surgery<br/><strong>Fellowship</strong>, Sports Medicine, Andrews Sports Medicine & Orthopaedic Center</p>",
+            "summary": "MD, Harvard Medical SchoolResidency, Orthopedic Surgery, Hospital for Special SurgeryFellowship, Sports Medicine, Andrews Sports Medicine & Orthopaedic Center"
+          },
+          "acceptingPatients": true
+        },
+        {
+          "__typename": "NodeProvider",
+          "id": "provider-williams",
+          "title": "Dr. Angela Williams",
+          "path": "/providers/dr-angela-williams",
+          "body": {
+            "processed": "<p>Dr. Williams is a board-certified emergency medicine physician and the Medical Director of our Emergency Department. She specializes in trauma care and has implemented innovative triage protocols that have significantly reduced patient wait times.</p>",
+            "summary": "Dr. Williams is a board-certified emergency medicine physician and the Medical Director of our Emergency Department. She specializes in trauma care and has implemented innovative triage protocols that"
+          },
+          "specialty": [
+            {
+              "id": "emergency",
+              "name": "emergency"
+            }
+          ],
+          "email": "awilliams@mercygeneral.org",
+          "phone": "(555) 100-3004",
+          "office": "Emergency Department, Admin Suite",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+            "alt": "Dr. Angela Williams",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "education": {
+            "processed": "<p><strong>MD</strong>, University of Pennsylvania School of Medicine<br/><strong>Residency</strong>, Emergency Medicine, Johns Hopkins Hospital<br/><strong>Fellowship</strong>, Trauma Critical Care, University of Maryland Shock Trauma</p>",
+            "summary": "MD, University of Pennsylvania School of MedicineResidency, Emergency Medicine, Johns Hopkins HospitalFellowship, Trauma Critical Care, University of Maryland Shock Trauma"
+          },
+          "acceptingPatients": false
+        }
+      ]
+    }
+  }
+}

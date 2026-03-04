@@ -1,0 +1,177 @@
+{
+  "data": {
+    "nodeServices": {
+      "__typename": "NodeServiceConnection",
+      "nodes": [
+        {
+          "__typename": "NodeService",
+          "id": "service-cardiac-surgery",
+          "title": "Cardiac Surgery",
+          "path": "/services/cardiac-surgery",
+          "body": {
+            "processed": "<p>Our cardiac surgery program offers a full range of surgical procedures for heart conditions, from minimally invasive valve repairs to complex bypass surgeries. Our surgeons use the latest robotic-assisted techniques to ensure faster recovery times and better outcomes.</p><h2>Procedures</h2><ul><li>Coronary artery bypass grafting (CABG)</li><li>Heart valve repair and replacement</li><li>Aortic aneurysm repair</li><li>Heart transplant evaluation</li></ul>",
+            "summary": "Our cardiac surgery program offers a full range of surgical procedures for heart conditions, from minimally invasive valve repairs to complex bypass surgeries. Our surgeons use the latest robotic-assi"
+          },
+          "department": [
+            {
+              "id": "cardiology",
+              "name": "cardiology"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=800&q=80",
+            "alt": "Cardiac Surgery",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-cancer-treatment",
+          "title": "Cancer Treatment",
+          "path": "/services/cancer-treatment",
+          "body": {
+            "processed": "<p>Our comprehensive cancer treatment program combines the latest in chemotherapy, immunotherapy, targeted therapy, and radiation oncology. We create personalized treatment plans using tumor genomic profiling and multidisciplinary tumor boards.</p><h2>Treatment Options</h2><ul><li>Chemotherapy and immunotherapy infusions</li><li>Proton therapy and IMRT radiation</li><li>Robotic-assisted cancer surgery</li><li>Clinical trial access</li></ul>",
+            "summary": "Our comprehensive cancer treatment program combines the latest in chemotherapy, immunotherapy, targeted therapy, and radiation oncology. We create personalized treatment plans using tumor genomic prof"
+          },
+          "department": [
+            {
+              "id": "oncology",
+              "name": "oncology"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=800&q=80",
+            "alt": "Cancer Treatment",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-joint-replacement",
+          "title": "Joint Replacement",
+          "path": "/services/joint-replacement",
+          "body": {
+            "processed": "<p>Our joint replacement program is among the highest-volume in the region, offering hip, knee, and shoulder replacements using advanced robotic-assisted technology. Most patients are able to walk the same day and return home within 24 hours.</p><h2>Offerings</h2><ul><li>Total hip replacement</li><li>Total knee replacement</li><li>Partial knee replacement</li><li>Shoulder replacement</li><li>Revision joint surgery</li></ul>",
+            "summary": "Our joint replacement program is among the highest-volume in the region, offering hip, knee, and shoulder replacements using advanced robotic-assisted technology. Most patients are able to walk the sa"
+          },
+          "department": [
+            {
+              "id": "orthopedics",
+              "name": "orthopedics"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+            "alt": "Joint Replacement",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-emergency-trauma",
+          "title": "Emergency & Trauma Care",
+          "path": "/services/emergency-trauma",
+          "body": {
+            "processed": "<p>As a Level II Trauma Center, we provide immediate, comprehensive care for life-threatening injuries and acute medical emergencies. Our emergency team is trained in the latest resuscitation protocols and has rapid access to all hospital surgical and diagnostic services.</p><h2>Capabilities</h2><ul><li>24/7 emergency physician coverage</li><li>Trauma surgery on-call</li><li>Rapid CT, MRI, and ultrasound</li><li>Helicopter landing pad</li><li>Pediatric emergency section</li></ul>",
+            "summary": "As a Level II Trauma Center, we provide immediate, comprehensive care for life-threatening injuries and acute medical emergencies. Our emergency team is trained in the latest resuscitation protocols a"
+          },
+          "department": [
+            {
+              "id": "emergency",
+              "name": "emergency"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=800&q=80",
+            "alt": "Emergency and Trauma Care",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
