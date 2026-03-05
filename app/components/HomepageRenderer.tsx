@@ -155,9 +155,9 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
               <ul className="space-y-2 text-sm text-primary-300">
                 <li><Link href="/providers" className="hover:text-white transition-colors">Find a Doctor</Link></li>
                 <li><Link href="/services" className="hover:text-white transition-colors">Our Services</Link></li>
-                <li><a href="/contact" className="hover:text-white transition-colors">Patient Portal</a></li>
-                <li><a href="/contact" className="hover:text-white transition-colors">Insurance Info</a></li>
-                <li><a href="/contact" className="hover:text-white transition-colors">Medical Records</a></li>
+                <li><a href="/services" className="hover:text-white transition-colors">Patient Portal</a></li>
+                <li><a href="/services" className="hover:text-white transition-colors">Insurance Info</a></li>
+                <li><a href="/services" className="hover:text-white transition-colors">Medical Records</a></li>
               </ul>
             </div>
 
@@ -177,10 +177,10 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
             <div>
               <h4 className="font-bold text-white mb-4 text-sm uppercase tracking-wider">Emergency</h4>
               <ul className="space-y-2 text-sm text-primary-300">
-                <li><a href="/contact" className="hover:text-white transition-colors">ER Services</a></li>
-                <li><a href="/contact" className="hover:text-white transition-colors">Urgent Care</a></li>
-                <li><a href="/contact" className="hover:text-white transition-colors">Trauma Center</a></li>
-                <li><a href="/contact" className="hover:text-white transition-colors">Air Ambulance</a></li>
+                <li><a href="/services" className="hover:text-white transition-colors">ER Services</a></li>
+                <li><a href="/services" className="hover:text-white transition-colors">Urgent Care</a></li>
+                <li><a href="/services" className="hover:text-white transition-colors">Trauma Center</a></li>
+                <li><a href="/services" className="hover:text-white transition-colors">Air Ambulance</a></li>
               </ul>
               <div className="mt-4 p-3 bg-accent-500/20 border border-accent-500/30 rounded-lg">
                 <p className="text-accent-300 text-xs font-bold">Emergency: 911</p>

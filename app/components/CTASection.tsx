@@ -25,7 +25,7 @@ export default function CTASection({ homepageContent }: CTASectionProps) {
           </p>
         )}
         <div className="flex justify-center gap-4 flex-wrap">
-          <a href="/contact" className="inline-flex items-center px-8 py-4 bg-white text-primary-900 rounded-lg hover:bg-gray-100 transition-colors font-bold">
+          <a href="/services" className="inline-flex items-center px-8 py-4 bg-white text-primary-900 rounded-lg hover:bg-gray-100 transition-colors font-bold">
             {primaryLabel}
             <ArrowRight className="w-5 h-5 ml-2" />
           </a>

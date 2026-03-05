@@ -42,7 +42,7 @@ export default function HeroSection({ homepageContent }: HeroSectionProps) {
                 Find a Doctor
               </Link>
               <Link
-                href="/contact"
+                href="/services"
                 className="inline-flex items-center px-8 py-4 bg-accent-500 text-white rounded-lg hover:bg-accent-600 transition-colors font-bold text-base shadow-lg shadow-accent-500/25"
               >
                 <AlertCircle className="w-5 h-5 mr-2" />

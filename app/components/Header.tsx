@@ -99,7 +99,7 @@ export default function Header() {
               (555) 123-4567
             </a>
             <Link
-              href="/contact"
+              href="/services"
               className="hidden sm:inline-flex items-center bg-accent-500 text-white px-5 py-2 rounded-lg hover:bg-accent-600 transition-colors duration-200 font-bold text-sm"
             >
               Emergency
@@ -135,7 +135,7 @@ export default function Header() {
                 </Link>
               ))}
               <Link
-                href="/contact"
+                href="/services"
                 onClick={() => setMobileMenuOpen(false)}
                 className="mx-4 mt-2 text-center bg-accent-500 text-white px-5 py-3 rounded-lg hover:bg-accent-600 transition-colors duration-200 font-bold text-sm"
               >
