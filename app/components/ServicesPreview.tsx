@@ -50,7 +50,7 @@ export default function ServicesPreview({ homepageContent }: ServicesPreviewProp
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">Comprehensive medical services delivered with compassion and the latest in medical technology.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service) => (
+          {services.slice(0, 3).map((service) => (
             <Link key={service.id} href={service.path || `/services/${service.id}`} className="group bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden">
               <div className="relative h-48 bg-gradient-to-br from-primary-700 to-primary-900">
                 {service.image?.url ? (
