@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-patients",
               "title": "",
-              "number": "50,000+",
+              "number": "50,000+", "value": "50,000+",
               "label": "Patients Served Annually"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-physicians",
               "title": "",
-              "number": "300+",
+              "number": "300+", "value": "300+",
               "label": "Board-Certified Physicians"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-departments",
               "title": "",
-              "number": "40+",
+              "number": "40+", "value": "40+",
               "label": "Medical Specialties"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-satisfaction",
               "title": "",
-              "number": "97%",
+              "number": "97%", "value": "97%",
               "label": "Patient Satisfaction Rate"
             }
           ],
