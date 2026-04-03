@@ -1,46 +1,19 @@
 'use client'
 
 import Link from 'next/link'
-import { useQuery } from '@apollo/client'
-import { GET_FEATURED_SERVICES } from '@/lib/queries'
 import { DrupalHomepage, DrupalService } from '@/lib/types'
 import { ArrowRight, Stethoscope } from 'lucide-react'
 import ResponsiveImage from './ResponsiveImage'
 
 interface ServicesPreviewProps {
   homepageContent?: DrupalHomepage | null
+  services?: DrupalService[]
 }
 
-interface FeaturedServicesData {
-  nodeServices: { nodes: DrupalService[] }
-}
-
-export default function ServicesPreview({ homepageContent }: ServicesPreviewProps) {
-  const { data, loading, error } = useQuery<FeaturedServicesData>(GET_FEATURED_SERVICES)
-  const services = data?.nodeServices?.nodes || []
+export default function ServicesPreview({ homepageContent, services = [] }: ServicesPreviewProps) {
   const sectionTitle = homepageContent?.featuredServicesTitle || 'Our Medical Services'
 
-  if (loading) {
-    return (
-      <section className="py-16 md:py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-black text-primary-950 mb-4">{sectionTitle}</h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((i) => (
-              <div key={i} className="bg-white rounded-xl border border-gray-200 shadow-sm animate-pulse">
-                <div className="h-48 bg-gray-200 rounded-t-xl" />
-                <div className="p-6 pt-10"><div className="h-6 bg-gray-200 rounded w-3/4 mb-3" /><div className="h-4 bg-gray-200 rounded w-full" /></div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-    )
-  }
-
-  if (error || services.length === 0) return null
+  if (services.length === 0) return null
 
   return (
     <section className="py-16 md:py-20 bg-gray-50">
@@ -65,7 +38,7 @@ export default function ServicesPreview({ homepageContent }: ServicesPreviewProp
                 </div>
                 <div className="pt-4">
                   {service.department && service.department.length > 0 && (
-                    <div className="text-sm text-primary-700 font-medium mb-2">{service.department[0].name}</div>
+                    <div className="text-sm text-primary-700 font-medium mb-2">{(service.department[0] as any).name}</div>
                   )}
                   <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-700 transition-colors">{service.title}</h3>
                   <div className="flex items-center text-primary-700 font-medium group-hover:gap-2 transition-all text-sm">

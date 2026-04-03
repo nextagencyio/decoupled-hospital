@@ -14,6 +14,7 @@ import { useState } from 'react'
 
 interface HomepageRendererProps {
   homepageContent: DrupalHomepage | null | undefined
+  featuredServices?: any[]
 }
 
 const commitmentItems = [
@@ -32,7 +33,7 @@ const galleryImages = [
   { src: 'https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=600&q=80&fit=crop', alt: 'Doctor with patient' },
 ]
 
-export default function HomepageRenderer({ homepageContent }: HomepageRendererProps) {
+export default function HomepageRenderer({ homepageContent, featuredServices }: HomepageRendererProps) {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
@@ -46,7 +47,7 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
       </ErrorBoundary>
 
       <ErrorBoundary>
-        <ServicesPreview homepageContent={homepageContent} />
+        <ServicesPreview homepageContent={homepageContent} services={featuredServices} />
       </ErrorBoundary>
 
       {/* Our Commitment Section */}

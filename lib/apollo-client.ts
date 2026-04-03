@@ -57,7 +57,7 @@ export function getServerApolloClient(requestHeaders: Headers): ApolloClient<any
     link: authLink.concat(httpLink),
     cache: new InMemoryCache({
       possibleTypes: {
-        TermInterface: ['TermDepartments', 'TermSpecialties', 'TermNewsCategories'],
+        TermInterface: ['TermDepartment', 'TermSpecialty', 'TermNewsCategory', 'TermTag'],
         NodeInterface: ['NodeDepartment', 'NodeProvider', 'NodeService', 'NodeNews', 'NodePage', 'NodeHomepage'],
       },
     }),
@@ -76,7 +76,7 @@ const authLink = setContext((_, { headers }) => ({
 
 const possibleTypesConfig = {
   possibleTypes: {
-    TermInterface: ['TermDepartments', 'TermSpecialties', 'TermNewsCategories'],
+    TermInterface: ['TermDepartment', 'TermSpecialty', 'TermNewsCategory', 'TermTag'],
     NodeInterface: ['NodeDepartment', 'NodeProvider', 'NodeService', 'NodeNews', 'NodePage', 'NodeHomepage'],
   },
 }

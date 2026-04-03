@@ -24,3 +24,10 @@ pnpm-debug.log*
 .vercel
 
 .git.bak*
+
+# schema (generated)
+/schema/
+
+# playwright
+/test-results/
+/playwright-report/
